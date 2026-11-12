@@ -1,5 +1,10 @@
 # Vanguard A/B Test – Digital Process Redesign
 
+> **Business recommendation:** Don't roll out the redesign as-is. It lifts completion from 65.6% to 69.3% across 50,500 clients (p < 0.001), but the gain isn't proven to clear the 5% cost-effectiveness threshold, and the error rate rose.
+> Fix **`step_1`** first: it is where errors and time both got worse. Then re-test.
+>
+> *Stack: Python, pandas, SciPy (hypothesis testing), Tableau · Team of 3 · My part: client-profile cleaning and EDA (70,609 records)*
+
 > Ironhack Data Analytics Bootcamp – Project 2 (Weeks 5–6)
 > **Team Ravenclaw:** Juliana Therezo · Raquel Marques · Lervin
 
